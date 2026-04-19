@@ -12,7 +12,9 @@ void print1(int n) {
     cin >> n;
        print1(n);
     }   
-/*   Input : 4
+/*   
+
+     Input : 4
      
      Output : ****
               ****
