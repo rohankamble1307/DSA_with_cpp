@@ -17,7 +17,9 @@ void print2(int n) {
     }   
 }
 
-/*  Input: 2
+/*  
+
+    Input: 2
            3
            5 
 
