@@ -14,3 +14,12 @@ void explainPair() {
     cout << arr[1].second;
 
 }
+
+/*
+
+// p.first           - Returns the first element of the pair
+// p.second          - Returns the second element of the pair
+// p.second.second   - Returns the second element of the nested pair
+// arr[1].second     - Returns the second element of pair at index 1 in array
+
+*/
