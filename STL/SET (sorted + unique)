@@ -1,0 +1,36 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    set<int> st;
+
+    st.insert(1); // {1}
+    st.insert(2); // {1,2}
+    st.insert(2); // {1,2}
+    st.insert(4); // {1,2,4}
+    st.insert(3); // {1,2,3,4}
+
+    // sorted + unique
+
+    auto it = st.find(3); // points to 3
+    auto it = st.find(6); // st.end()
+
+    st.erase(5); // erase 5
+
+    int cnt = st.count(1); // 1
+
+    auto it1 = st.find(3);
+    st.erase(it1); // erase using iterator
+
+    auto it2 = st.find(2);
+    auto it3 = st.find(4);
+
+    st.erase(it2, it3); // {1,4} [first,last)
+
+    // lower_bound & upper_bound
+
+    auto it4 = st.lower_bound(2);
+    auto it5 = st.upper_bound(3);
+
+}
