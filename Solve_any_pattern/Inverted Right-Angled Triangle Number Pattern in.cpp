@@ -17,7 +17,9 @@ void print6(int n) {
     }   
 }
 
-/*     Input:  1
+/*     
+
+       Input:  1
                5
        
 
@@ -26,4 +28,5 @@ void print6(int n) {
                * * * 
                * * 
                *  
+               
 */
