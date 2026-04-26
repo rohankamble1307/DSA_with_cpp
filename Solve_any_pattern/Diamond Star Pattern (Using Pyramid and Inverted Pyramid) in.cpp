@@ -40,8 +40,9 @@ void print8(int n) {
        cin >> n;
        print7(n);
        print8(n);
-    }   
+    }
 }
+
 /*      
 
         Input: 1
