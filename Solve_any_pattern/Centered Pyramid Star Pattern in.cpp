@@ -23,8 +23,9 @@ void print7(int n) {
        int n;
        cin >> n;
        print7(n);
-    }   
+    }
 }
+
 /*
     
     Input: 1
