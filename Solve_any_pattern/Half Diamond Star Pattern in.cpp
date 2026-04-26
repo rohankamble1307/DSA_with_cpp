@@ -19,7 +19,8 @@ void print9(int n) {
     }   
 }
 
-/*    Input: 1
+/*    
+      Input: 1
              5
 
       Output: *
