@@ -15,9 +15,9 @@ cout << *(it) << " ";
 
 it = it + 2;        // jump
 
-vector<int>::iterator it = v.end();   // after last
-vector<int>::iterator it = v.rend();  // reverse end
-vector<int>::iterator it = v.rbegin();// reverse begin
+vector<int>::iterator it = v.end();     // after last
+vector<int>::iterator it = v.rend();    // reverse end
+vector<int>::iterator it = v.rbegin();  // reverse begin
 
 // {10,20,30,40}
 
@@ -37,3 +37,5 @@ for(auto it : v){
 v.erase(v.begin()+1);             // remove 2nd element
 
 v.erase(v.begin()+2, v.begin()+4);// remove range
+
+
