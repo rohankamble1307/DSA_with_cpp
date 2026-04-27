@@ -26,7 +26,7 @@ void print8(int n) {
         for (int j = 0; j<2*n - (2*i + 1); j++) {
             cout << "*"; 
         }
-        // Print stars
+        // Print spaces
         for (int j = 0; j<i; j++){
             cout << " ";
         }
