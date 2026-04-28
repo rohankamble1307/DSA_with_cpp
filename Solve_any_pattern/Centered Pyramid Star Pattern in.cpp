@@ -16,7 +16,7 @@ void print7(int n) {
         }
         cout << endl;
     }}
-       int main() {
+    int main() {
     int t;
     cin >> t;
     for (int i = 0; i < t; i++) {
@@ -31,7 +31,8 @@ void print7(int n) {
     Input: 1
            5
 
-    Output:     *
+    Output: 
+                *
                ***
               *****
              *******
