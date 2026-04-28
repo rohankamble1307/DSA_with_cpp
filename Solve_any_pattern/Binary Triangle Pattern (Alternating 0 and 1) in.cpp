@@ -12,7 +12,7 @@ void print10(int n){
         cout << endl;
     }
 }
-       int main() {
+    int main() {
     int t;
     cin >> t;
     for (int i = 0; i < t; i++) {
@@ -22,12 +22,15 @@ void print10(int n){
     }   
 }
 
-/*     Input: 1
+/*     
+       Input: 1
               5
             
-       Output:1
-              01
-              101
-              0101
-              10101
+       Output: 
+               1
+               01
+               101
+               0101
+               10101
+               
 */
