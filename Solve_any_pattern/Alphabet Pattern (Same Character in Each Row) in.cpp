@@ -28,7 +28,8 @@ int main() {
     Input: 1
            5
 
-    Output: A
+    Output: 
+            A
             BB
             CCC
             DDDD
