@@ -9,8 +9,7 @@ void print13(int n){
     }
     cout<<endl;
 
-    }
-}
+    }}
 int main() {
     int t;
     cin >> t;
@@ -27,7 +26,8 @@ int main() {
      Input: 1
             5
 
-    Output: 1 
+    Output: 
+            1 
             2 3 
             4 5 6 
             7 8 9 10 
