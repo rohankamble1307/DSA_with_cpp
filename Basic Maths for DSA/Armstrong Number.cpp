@@ -13,7 +13,7 @@ int main(){
         sum += (last * last * last);
         n = n / 10;
     }
-
+    
     if(sum == temp) cout << "Armstrong";
     else cout << "Not Armstrong";
 }
@@ -24,4 +24,5 @@ Output: Armstrong
 
 Input: 123
 Output: Not Armstrong
+
 */
