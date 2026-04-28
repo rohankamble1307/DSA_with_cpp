@@ -27,7 +27,8 @@ int main() {
       Input: 1
              5
 
-      Output: E
+      Output: 
+              E
               DE
               CDE
               BCDE
