@@ -18,9 +18,11 @@ int main(){
 }
 
 /*
+
 Input: 7
 Output: Prime
 
 Input: 8
 Output: Not Prime
+
 */
