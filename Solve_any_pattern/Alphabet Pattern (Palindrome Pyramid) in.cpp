@@ -43,7 +43,8 @@ int main() {
           5
 
 
-   Output:     A
+   Output: 
+               A
               ABA
              ABCBA
             ABCDCBA
